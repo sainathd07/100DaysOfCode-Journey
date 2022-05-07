@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">first name</label>
+    <form action="" method="">
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <p>password</p>
+        <input type="password" placeholder="password">
+        <br>
+        <br>
+        <input type="email" name="" id="" value="email@email.com">
+        <br>
+        <p>Description</p>
+        <textarea name="" id="" cols="20" rows="10"></textarea> <!--creates textarea field-->
+        <br>
+        <p>Please select your favorite color</p>
+        <input type="radio" name="Color" id="" value="Blue">Blue
+        <input type="radio" name="Color" id="" value="Green">Green
+        <input type="radio" name="Color" id="" value="Yellow">Yellow
+        <!-- In the above code, to submit data, add what you want to submit in the value attribute. The name of all the elements must match. For example, Color is the value of the attribute name for all the elements.If it doesn't match, then user may able to select multiple options and that can create a chaos  -->
+        <br>
+        <p>Please select one Alphabet</p>
+        <input type="checkbox" checked name="Alphabet" id="" value="A">A <!--If want an option to be automatically checked then use checked attribute. You can also write that attribute as checked="checked"-->
+        <input type="checkbox" name="Alphabet" id="" value="B">B
+        <input type="checkbox" name="Alphabet" id="" value="C">C
+
+        <!-- The main difference between radio and checkbox is that we cannot select multiple options in radio but we can select multiple options in checkboxes -->
+
+        <br>
+        <p>Please select one Alphabet</p>
+        <select name="Alphabet" id="">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <!-- to create a select box or drop down menu type out select and click on the first emmet -->
+        <br>
+        <button type="submit">submit</button>
+        <br>
+        <br>
+        <input type="submit" value="Submit Please">
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
