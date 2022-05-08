@@ -1,0 +1,12 @@
+h1{
+    color: green;
+    font-size: 4rem;
+}
+/* The above code in a whole is called css rule in CSS. css rules includes selectors(h1, h2 are selectors) and declaration block(code inside curly braces is called declaration block). */
+/* within the declaration there are properties(color, font-size etc) and values assigned to them */
+
+h2{
+    color: yellow;
+}
+/* This is a comment in CSS */
+

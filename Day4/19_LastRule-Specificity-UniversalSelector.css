@@ -1,0 +1,17 @@
+
+/* .red {
+    color: red;
+} */
+Red will the color because of specificity
+/* p{
+    color: blue;
+} */
+/* p{
+    color: red; 
+}  */
+/* The red color is taken because it's written last -  This is the last rule */
+
+*{
+    color: blue;
+}
+/* universal selector has least specificity */

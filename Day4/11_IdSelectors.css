@@ -1,0 +1,9 @@
+#heading{ /* what's written in id should be written same here*/
+    color: green;
+    background: antiquewhite;
+}
+
+#subheading{
+    color: blueviolet;
+    background: antiquewhite;
+}

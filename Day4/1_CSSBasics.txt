@@ -1,0 +1,7 @@
+CSS - Cascading Style Sheets
+It is responsible for styling the  web(how elements are to be displayed) whereas html is responsible for what elements are displayed.
+HTML - STRUCTURE
+CSS - LAYOUT, LOOK
+
+General CSS syntax:
+selector{property:value;property:value}

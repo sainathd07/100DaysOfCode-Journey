@@ -1,0 +1,9 @@
+body {
+    color: blue;
+}
+
+h1,h2 {
+    color: red;
+}
+
+/* we have grouped selectors in the above line 5 */
