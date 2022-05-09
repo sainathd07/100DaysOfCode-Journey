@@ -1,0 +1,16 @@
+h1{
+    background-color: wheat;
+    padding: 20px;
+    margin: 50px; /* all sides */
+    border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+p{
+    background-color: hotpink;
+    padding: 50px; /*all sides*/
+    /* padding: 30px 60px; */ /*top-bottom left-right*/
+    /* padding: 30px 50px 56px 20px; */ /*top right bottom left*/
+    border: 10px dashed blue;
+}
