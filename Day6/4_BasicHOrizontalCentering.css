@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+.block{
+    background: blue;
+    color: white;
+    width: 150px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto;
+}
+.inline{
+    background: red;
+    color: white;
+}
