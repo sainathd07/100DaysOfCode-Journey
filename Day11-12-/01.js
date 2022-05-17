@@ -86,7 +86,23 @@
 
 // let [var1, var2] = array1; //assigning array items to var1 and var2
 // console.log(var1);
-// console.log(var2);
+// console.log(var2); 
 
+//object Destructuring
+// const band = {
+//     bandName: "Sainath",
+//     famousSong: "To heaven",
+// };
 
+// const { bandName, famousSong} = band; //shortcut to destructure band
+// console.log(bandName);
 
+//objects inside array
+// const users = [
+//     {userId: 1,firstName: 'harshit', gender: 'male'},
+//     {userId: 2,firstName: 'mohit', gender: 'male'},
+//     {userId: 3,firstName: 'nitish', gender: 'male'},
+// ]
+// for(let user of users){
+//     console.log(user.firstName);
+// } // accessing array elements
