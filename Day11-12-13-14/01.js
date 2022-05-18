@@ -106,3 +106,54 @@
 // for(let user of users){
 //     console.log(user.firstName);
 // } // accessing array elements
+
+// Function related practise
+// function isEvenOrOdd(num1){
+//     if(num1%2 === 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// };
+// let i = isEvenOrOdd(7);
+// console.log(i);
+
+// function outputFirst(stringg){
+//     return stringg[0];
+// };
+// console.log(outputFirst("sainath"));
+
+// function isPresent(arr, target){
+//     for(let i = 0;i<arr.length;i++){
+//         if(arr[i] === target){
+//             return i;
+//         }
+//     };
+//     return -1;
+// };
+// const arry = [5, 85, 69, 54, 8, 6, 2];
+// console.log(isPresent(arry, 56));
+
+// This is function expression
+// const newFunction = function(){
+//     console.log("This is function expression");
+// };
+// newFunction();
+
+// This is arrow function
+// const newFunction = () => {
+//     console.log("This is arrow function");
+// };
+// newFunction();
+
+// In arrow function, if the parameter is only one then you can remove paranthesis
+// const newFunction = number => {
+//     return number+1;
+// };
+// console.log(newFunction(5));
+
+// short form of writing arrow function
+
+// const isEven = number => number%2 === 0;
+// console.log(isEven(4));
