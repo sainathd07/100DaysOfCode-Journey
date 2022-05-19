@@ -157,3 +157,108 @@
 
 // const isEven = number => number%2 === 0;
 // console.log(isEven(4));
+
+// function inside function
+
+// function myTest(){
+//     console.log("first line");
+
+//     function insideMyTest(){
+//         console.log("inside my test");
+//     };
+
+//     insideMyTest();
+// };
+// myTest();
+
+// let and const are block scope
+// var is function scope
+
+//default parameters
+
+// function addTwo(a, b){
+//     if(typeof b === "undefined"){
+//         b = 1;
+//     };
+//     return a+b;
+// };
+// console.log(addTwo(4)); // if we are passing only one parameter and want second parameter value to be something deafault like 1 or 0 then we write code as written in line number 180
+
+//new method
+// function addTwo(a, b=1){
+//     return a+b;
+// };
+// console.log(addTwo(4));
+
+// rest parameters
+// function myFunc(a, b, ...c){ // all remaining values will go into c parameter
+//     console.log(`a is ${a}`);
+//     console.log(`b is ${b}`);
+//     console.log(`c is ${c}`);
+    // console.log(`c is`, c); // to print array
+// };
+// myFunc(5, 5, 8, 56, 8, 2);
+
+// Example problem
+
+// function addAll(a, ...b){
+//     let sum = 0;
+//     for(let i=0;i<b.length;i++){
+//         sum += b[i];
+//     };
+//     return a + sum;
+// };
+// console.log(addAll(6, 5, 8, 25, 6, 5, 4, 2, 7));
+
+// array methods
+
+//for each
+// const numbers = [4, 8, 6, 5];
+
+// function myFunc(number, index){
+//     console.log(`number is ${number} and index is ${index}`);
+// };
+
+// numbers.forEach(myFunc); //for each passes first item as first parameter and its index as second parameter
+
+// you can also define a function inside for each
+// const numbers = [4, 8, 6, 5];
+// numbers.forEach(function(number, index){ // we defined a anonymous function here(without name)
+//     console.log(`number is ${number} and index is ${index}`);
+// });
+
+// we can ignore index as parameter in forEach if we want
+// const numbers = [4, 8, 6, 5];
+// numbers.forEach(function(number){
+//     console.log(number*2);
+// });
+
+// Real time example
+
+// const users = [
+//     {firstName : "mohit", age : 21},
+//     {firstName : "harish", age : 26},
+//     {firstName : "sainath", age : 25},
+//     {firstName : "mohan", age : 22},
+// ];
+// users.forEach(function(user){
+//     console.log(user.firstName);
+// });
+
+// map method
+// const numbers = [5, 6, 2, 7, 3];
+
+// const square =  function(number){
+//     return number * number;
+// };
+// const squareNumber = numbers.map(square); //map returns items as a array
+// console.log(squareNumber);
+
+// filter method
+
+// const numbers = [5, 1, 2, 4, 8, 6];
+
+// const evenNum = function(number){
+//     return number % 2==0;
+// };
+// console.log(numbers.filter(evenNum));
