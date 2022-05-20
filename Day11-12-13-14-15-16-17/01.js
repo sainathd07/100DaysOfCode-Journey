@@ -356,3 +356,34 @@
 
 // const myUser = users.find((user)=>user.userId===3);
 // console.log(myUser);
+
+// every method
+
+//check if all elements are even
+
+// const numbers = [2,4,6,8,10];
+
+// const ans = numbers.every((number)=>number%2===0); //callback funtion returns a boolean and every method also returns a boolean.
+
+// console.log(ans); //output will be true because all are even
+
+// what if one element id odd?
+
+// const numbers = [2,4,5,8,10];
+
+// const ans = numbers.every((number)=>number%2===0);
+
+// console.log(ans); //output will be false because one element is odd
+
+// example
+
+// const userCart = [
+//     {productId: 1, productName: "mobile", price: 12000},
+//     {productId: 2, productName: "laptop", price: 22000},
+//     {productId: 3, productName: "TV", price: 15000},
+// ];
+
+// // check if every product price is less than 30000
+
+// const ans = userCart.every((cartItem)=>cartItem.price<30000);
+// console.log(ans);
