@@ -298,3 +298,37 @@
 // console.log(totalAmount);
 
 // sort method
+
+// const userNames = ["ashish", "mohit", "hitesh", "suraj", "aabc", "B", "ABCD"];
+
+// userNames.sort(); // sort method sorts acc. to the ascii values
+// console.log(userNames);
+
+// sorting numbers
+
+// const numbers = [5, 9, 45, 400, 3000, 1200];
+// numbers.sort((a, b)=>{
+//     return a-b; //ascending order
+//     //return b-a; //descending order
+// }); // we use this method to sort numbers because sort method sorts acc. to ascii method , we do get the desired output regarding numbers
+// console.log(numbers);
+
+// another example
+
+// const products = [
+//     {productId : 1, produceName: "p1", price: 300},
+//     {productId : 2, produceName: "p2", price: 3000},
+//     {productId : 3, produceName: "p3", price: 200},
+//     {productId : 4, produceName: "p4", price: 8000},
+//     {productId : 5, produceName: "p5", price: 500},
+// ];
+
+// const lowToHigh = products.slice(0).sort((a, b)=>{ //cloning array using slice
+//     return a.price-b.price;
+// });
+
+// const highToLow = products.slice(0).sort((a, b)=>{ //cloning array using slice
+//     return b.price-a.price;
+// });
+
+// console.log(lowToHigh);
