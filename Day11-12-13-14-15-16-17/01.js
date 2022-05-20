@@ -332,3 +332,27 @@
 // });
 
 // console.log(lowToHigh);
+
+// find method
+
+// const myArray = ["cattle", "cat", "dog", "elephant"];
+
+// function isLength3(string){
+//     return string.length === 3;
+// };
+
+// const ans = myArray.find(isLength3); //find methid prints only first occurance. Though dog is also of length 3, only cat will be the output beacuse it is occured first
+// console.log(ans);
+
+// example
+
+// const users = [
+//     {userId : 1, userName: "harsha"},
+//     {userId : 2, userName: "harsh"},
+//     {userId : 3, userName: "sainath"},
+//     {userId : 4, userName: "dhruvi"},
+//     {userId : 5, userName: "medha"},
+// ];
+
+// const myUser = users.find((user)=>user.userId===3);
+// console.log(myUser);
