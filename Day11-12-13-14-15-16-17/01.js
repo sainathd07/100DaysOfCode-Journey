@@ -387,3 +387,25 @@
 
 // const ans = userCart.every((cartItem)=>cartItem.price<30000);
 // console.log(ans);
+
+// some method
+
+// const numbers = [3, 5, 8, 9];
+
+// // check if any number is even?
+
+// const ans = numbers.some((number)=>number%2==0);
+// console.log(ans); //returns true i.e, a number is even
+
+// example
+
+// check if any products price is more than 100000
+// const userCart = [
+//     {productId: 1, productName: "mobile", price: 12000},
+//     {productId: 2, productName: "laptop", price: 22000},
+//     {productId: 3, productName: "TV", price: 15000},
+//     {productId: 4, productName: "macbook", price: 250000},
+// ];
+
+// const ans = userCart.some((cartItem)=>cartItem.price>100000);
+// console.log(ans);
