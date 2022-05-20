@@ -518,3 +518,33 @@
 // console.log(person1.id);
 // console.log(extraInfo.get(person1));
 // console.log(extraInfo.get(person1).age);
+
+// clone using object.assign
+
+// const obj = {
+//     key1 : "value1",
+//     key2 : "value2",
+// };
+
+// console.log(obj);
+
+// const obj2 = obj;
+
+// console.log(obj2);
+
+// lets add another item to obj
+
+// obj.key3 = "value3";
+// console.log(obj);
+// console.log(obj2); //obj2 is also updating , if we dont want this to happen we should create obj2 as new object in the memory, we can use spread operator and we can use cloning method mentioned in line number 542
+
+// const obj2 = {...obj};
+// const obj2 = Object.assign({}, obj);
+// console.log(obj2);
+
+// obj.key3 = "value3";
+
+// console.log(obj);
+// console.log(obj2);
+
+
