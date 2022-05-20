@@ -409,3 +409,36 @@
 
 // const ans = userCart.some((cartItem)=>cartItem.price>100000);
 // console.log(ans);
+
+
+// fill method
+// value, start, end
+
+// const myArray = new Array(10).fill(-1); // here we are creating a new array of length 10 and filling the array with -1.
+// console.log(myArray);
+
+
+// const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
+// myArray.fill(0, 2, 5); //fill elements of index from 2 to 4 with 0
+// console.log(myArray);
+
+
+// splice method
+// start , delete , insert
+
+// if we want to inser or delete from an Array, we will use splice method
+
+// const myArray = ['item1', 'item2', 'item3'];
+
+// delete , delete method also returns
+// myArray.splice(1, 1);
+// console.log(myArray);
+
+// insert
+// myArray.splice(1, 0, 'inserted item');
+// console.log(myArray);
+
+// insert and delete
+// myArray.splice(1, 2, "insertedItem1", "insertedItem2");
+// console.log(myArray);
+
