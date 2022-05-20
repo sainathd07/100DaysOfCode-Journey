@@ -484,3 +484,37 @@
 //     length++;
 // };
 // console.log(length);
+
+// Maps
+// Map also stores data as key value pair
+// The difference between object and maps is key can of any type
+
+// const person = new Map(); //syntax of defining map
+
+// person.set('firstName', 'Sainath'); //adds to map
+// person.set('age', 7);
+// person.set(1, 'one');
+// person.set([1, 2, 3], 'onetwothree');
+// person.set({1: 'one'}, 'onetwothree');
+// console.log(person);
+// console.log(person.get('firstName')); //accesing individual items
+// console.log(person.get(1));
+// // console.log(person.keys()); //printing all keys in the map
+
+// for (let key of person.keys()){
+//     console.log(key);
+// } // printing all keys
+
+// example
+
+// const person1 = {
+//     id : 1,
+//     firstName : "Sainath", 
+// };
+
+// const extraInfo = new Map();
+// extraInfo.set(person1, {age: 8, gender: 'male'});
+
+// console.log(person1.id);
+// console.log(extraInfo.get(person1));
+// console.log(extraInfo.get(person1).age);
