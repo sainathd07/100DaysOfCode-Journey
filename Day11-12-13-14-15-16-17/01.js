@@ -442,3 +442,45 @@
 // myArray.splice(1, 2, "insertedItem1", "insertedItem2");
 // console.log(myArray);
 
+// iterables are those on whom we can apply for of loop - string, array are iterables
+
+// array like object - those who have length property and which can be accessed via the index - string
+
+// Sets
+
+// const numbers = new Set(); //syntax of defining set
+
+// const numbers = new Set([1, 2, 3]);
+// console.log(numbers);
+
+// const numbers = new Set();
+
+// numbers.add(1); //adds 1 to the set numebers
+// numbers.add(5);
+// numbers.add('items');
+// numbers.add("Sainath");
+
+// console.log(numbers.has(1)); //returns true if 1 is present in the set else returns false
+
+// console.log(numbers);
+
+// items = ['item1', 'item2', 'item3'];
+// numbers.add(items); //adds items array to the set numbers
+// console.log(numbers);
+
+// for(let number of numbers){
+//     console.log(number);
+// }; //applying for loop to the set numbers
+
+// //extracting unique elemts from an array
+
+// const myArray = [1, 2, 3, 5, 5, 6, 9, 9];
+// const uniqueElements = new Set(myArray);
+// console.log(uniqueElements);
+
+// // finding length of above set
+// let length = 0;
+// for(let element of uniqueElements){
+//     length++;
+// };
+// console.log(length);
