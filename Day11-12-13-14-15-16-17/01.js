@@ -565,3 +565,44 @@
 // console.log(user?.firstName);
 // console.log(user?.adress?.houseNumber);
 
+// creating our own methods
+
+// what are methods? - funtion inside object is called a method
+
+// const person = {
+//     firstName : "Sainath",
+//     age : 21,
+//     about : function(){
+//         console.log(`person name is ${this.firstName} and person age is ${this.age}`);
+//     }
+// };
+
+// person.about();
+
+// what if we define method outside and make more use of it :) ?
+
+// function personInfo(){
+//     console.log(`person name is ${this.firstName} and person age is ${this.age}`);
+// };
+
+// const person1 = {
+//     firstName : "Sainath",
+//     age : 21,
+//     about : personInfo
+// };
+
+// const person2 = {
+//     firstName : "medha",
+//     age : 21,
+//     about : personInfo
+// };
+
+// const person3 = {
+//     firstName : "slaghya",
+//     age : 10,
+//     about : personInfo
+// };
+
+// person2.about();
+// person1.about();
+// person3.about();
