@@ -547,4 +547,21 @@
 // console.log(obj);
 // console.log(obj2);
 
+// optional chaining
+
+// const user = {
+//     firstName : "Sainath",
+//     adress : {houseNumber : 1234},
+// };
+
+// console.log(user.firstName);
+// console.log(user.adress.houseNumber);
+
+// Let suppose that line 554 is not there then line number 558's output will be an error, if we don't want error to display, instead we want to display undefined we can use ?. instead of .
+
+// const user = {
+//     firstName : "Sainath",
+// };
+// console.log(user?.firstName);
+// console.log(user?.adress?.houseNumber);
 
