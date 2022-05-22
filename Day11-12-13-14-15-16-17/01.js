@@ -606,3 +606,45 @@
 // person2.about();
 // person1.about();
 // person3.about();
+
+// call, apply, bind methods
+
+// const user1 = {
+//     firstName : "sainath",
+//     age : 21,
+//     about : function() {
+//         console.log(this.firstName , this.age)
+//     }
+// }
+
+// const user2 = {
+//     firstName : "sainath",
+//     age : 21,
+// }
+
+// user1.about.call(user2); // using about in user1 for user2
+
+// other example
+
+// const user1 = {
+//     firstName : "sainath",
+//     age : 21,
+//     about : function(hobby, favSong) {
+//         console.log(this.firstName , this.age, hobby, favSong)
+//     }
+// }
+
+// const user2 = {
+//     firstName : "sainath",
+//     age : 21,
+// }
+
+// user1.about.call(user2, "singing", "None");
+
+//apply
+// user1.about.call(user2, ["guitar", "None"]); // passing as array
+
+//bind
+// const func = user1.about.bind(user2, ["guitar", "None"]); // bind returns a function
+
+// func();
