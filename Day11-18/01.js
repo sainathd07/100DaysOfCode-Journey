@@ -648,3 +648,4 @@
 // const func = user1.about.bind(user2, ["guitar", "None"]); // bind returns a function
 
 // func();
+
