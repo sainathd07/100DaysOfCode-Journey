@@ -64,36 +64,57 @@ Everything in between is a comment.
 
 // class
 
-class Animal{
-    constructor(name, age){
-        this.name = name;
-        this.age;
-    }
+// class Animal{
+//     constructor(name, age){
+//         this.name = name;
+//         this.age;
+//     }
 
-    eat(){
-        return `${this.name} is eating`;
-    }
+//     eat(){
+//         return `${this.name} is eating`;
+//     }
 
-    isSuperCute(){
-        return this.age <= 1;
-    }
+//     isSuperCute(){
+//         return this.age <= 1;
+//     }
 
-    isCute(){
-        return true;
+//     isCute(){
+//         return true;
+//     }
+// }
+
+// class Dog extends Animal{
+//     constructor(name, age, speed){
+//         super(name, age);
+//         this.speed = speed;
+//     }
+
+//     run(){
+//         return `${this.name} is running at ${this.speed} `;
+//     }
+// }
+
+// const tommy = new Dog("tommy", 3);
+// console.log(tommy.isCute());
+// console.log(tommy.run());
+
+// getter and setters
+
+class Person{
+    constructor(firstName, lastName, age){
+        this.firstName = firstName;
+        this.lastName - lastName;
+        this.age = age;
+    }
+    get fullName(){
+        return `${this.firstName} ${this.lastName}`     
+    }
+    set fullName(fullName){
+        const [firstName, lastName] = fullName.split(" ");
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 }
 
-class Dog extends Animal{
-    constructor(name, age, speed){
-        super(name, age);
-        this.speed = speed;
-    }
-
-    run(){
-        return `${this.name} is running at ${this.speed} `;
-    }
-}
-
-const tommy = new Dog("tommy", 3);
-console.log(tommy.isCute());
-console.log(tommy.run());
+const person1 = new Person("sainath", "goud", 21);
+console.log(person1.fullName);
