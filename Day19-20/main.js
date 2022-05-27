@@ -62,3 +62,38 @@ Everything in between is a comment.
 //   setUserName();
 // }
 
+// class
+
+class Animal{
+    constructor(name, age){
+        this.name = name;
+        this.age;
+    }
+
+    eat(){
+        return `${this.name} is eating`;
+    }
+
+    isSuperCute(){
+        return this.age <= 1;
+    }
+
+    isCute(){
+        return true;
+    }
+}
+
+class Dog extends Animal{
+    constructor(name, age, speed){
+        super(name, age);
+        this.speed = speed;
+    }
+
+    run(){
+        return `${this.name} is running at ${this.speed} `;
+    }
+}
+
+const tommy = new Dog("tommy", 3);
+console.log(tommy.isCute());
+console.log(tommy.run());
