@@ -19,6 +19,10 @@ let insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk'
 randomize.addEventListener('click', result);
 
 function result() {
+  let newStory = storyText;
+  let xItem = randomValueFromArray();
+  let yItem = randomValueFromArray();
+  let zItem = randomValueFromArray();
 
   if(customName.value !== '') {
     const name = customName.value;
